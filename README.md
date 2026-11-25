@@ -8,11 +8,11 @@ Entry for the [Have You Tried Turning It Off?](https://make.fun/bounty/u-motasim
 
 ## The entry
 
-> Have you tried turning yourself off and on again? The computer is fine.
+> Have you tried turning it off and on again? I have. Twice. That's how your outage started.
 
 ## How it works
 
-`main.ts` (Node 22) writes the line to `/output/entry.txt`, after guarding the competition gate: 1–199 UTF-8 characters, not blank, a single line, no control characters, exactly 71 characters — then reads the file back to confirm it matches.
+`main.ts` (Node 22) writes the line to `/output/entry.txt`, after guarding the competition gate: 1–199 UTF-8 characters, not blank, a single line, no control characters, exactly 90 characters — then reads the file back to confirm it matches.
 
 ```sh
 node main.ts
